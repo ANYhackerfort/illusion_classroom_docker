@@ -1,0 +1,7 @@
+.video-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  background-color: black;
+  overflow: hidden;
+}

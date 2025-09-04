@@ -1,0 +1,22 @@
+.room-status-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  padding: 14px;
+  padding-left: 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 81%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+}
+
+.room-name {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.room-id {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}

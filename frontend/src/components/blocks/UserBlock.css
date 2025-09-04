@@ -1,0 +1,38 @@
+.user-block {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 12px;
+  margin: 8px;
+}
+
+.user-block:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.user-name {
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.user-email {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}
